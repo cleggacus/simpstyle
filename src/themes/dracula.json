@@ -1,0 +1,18 @@
+{
+  "title": "dracula",
+  "colors": {
+    "bgPrimary":    "#282a36",
+    "bgSecondary":  "#44475a",
+    "bgTertiary":   "#6272a4",
+
+    "fgPrimary":    "#f8f8f2",
+    "fgSecondary":  "#f8f8f2",
+    "fgTertiary":   "#f8f8f2",
+
+    "bgNavbar":     "var(--bg-primary)",
+    "fgNavbar":     "var(--fg-primary)",
+
+    "bgContent":     "var(--bg-secondary)",
+    "fgContent":     "var(--fg-secondary)"
+  }
+}
