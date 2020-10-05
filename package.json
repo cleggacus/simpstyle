@@ -1,6 +1,6 @@
 {
   "name": "simpstyle",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Made with create-react-library",
   "author": "cleggacus",
   "license": "MIT",
@@ -58,7 +58,8 @@
     "typescript": "^3.7.5"
   },
   "files": [
-    "dist"
+    "dist",
+    "dist/navbars"
   ],
   "dependencies": {
     "@types/react-router-dom": "^5.1.5",

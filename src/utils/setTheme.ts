@@ -14,4 +14,8 @@ export default (theme: Theme) => {
 
   document.documentElement.style.setProperty('--bg-content',     theme.colors.bgContent);
   document.documentElement.style.setProperty('--fg-content',     theme.colors.fgContent);
+
+  document.documentElement.style.setProperty('--box-shadow',     theme.colors.boxShadow);
+  document.documentElement.style.setProperty('--border-width',     theme.colors.borderWidth);
+  document.documentElement.style.setProperty('--border-color',     theme.colors.borderColor);
 }

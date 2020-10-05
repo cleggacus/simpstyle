@@ -8,10 +8,14 @@ import { BrowserRouter } from "react-router-dom";
 
 interface Props {
   theme?: Theme;
-  children?: JSX.Element[] | JSX.Element | null;
+  children?: any;
 }
 
 export default (props: Props) => {
+  useEffect(() => {
+    setTheme(props.theme ? props.theme : themes.dracula);
+  }, [props.theme]);
+
   useEffect(() => {
     setTheme(props.theme ? props.theme : themes.dracula);
   }, []);

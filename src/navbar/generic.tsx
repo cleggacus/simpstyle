@@ -3,7 +3,7 @@ import styles from './generic.module.scss';
 
 interface Props {
   height?: string | number;
-  children?: JSX.Element[] | JSX.Element | null;
+  children?: any;
 }
 
 const defaultHeight = '60px';

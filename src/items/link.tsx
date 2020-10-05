@@ -1,16 +1,16 @@
 import * as React from 'react';
 import styles from './link.module.scss';
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-interface Props {
+interface Gay {
   to?: string;
-  children?: string | null;
+  children?: any;
 }
 
-export default (props: Props) => {
+export default (gay: Gay) => {
   return (
-    <Link className={styles.link} to={props.to ? props.to : ''}>
-      {props.children}
-    </Link>
+    <NavLink exact activeClassName={styles.active} className={styles.link} to={gay.to ? gay.to : ''}>
+      {gay.children}
+    </NavLink>
   )
 }

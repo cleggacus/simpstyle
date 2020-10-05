@@ -3,7 +3,7 @@
   "colors": {
     "bgPrimary":    "#282a36",
     "bgSecondary":  "#44475a",
-    "bgTertiary":   "#6272a4",
+    "bgTertiary":   "#44475a",
 
     "fgPrimary":    "#f8f8f2",
     "fgSecondary":  "#f8f8f2",
@@ -13,6 +13,10 @@
     "fgNavbar":     "var(--fg-primary)",
 
     "bgContent":     "var(--bg-secondary)",
-    "fgContent":     "var(--fg-secondary)"
+    "fgContent":     "var(--fg-secondary)",
+
+    "boxShadow":     "#0003",
+    "borderWidth":   "1px",
+    "borderColor":   "#fff0"
   }
 }

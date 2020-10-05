@@ -19,9 +19,12 @@
     "@types/react-dom": "link:../node_modules/@types/react-dom",
     "react": "link:../node_modules/react",
     "react-dom": "link:../node_modules/react-dom",
+    "react-feather": "^2.0.8",
     "react-scripts": "link:../node_modules/react-scripts",
-    "typescript": "link:../node_modules/typescript",
-    "simpstyle": "link:.."
+    "simpstyle": "link:..",
+    "styled-components": "^5.2.0",
+    "styled-icons": "^10.22.0",
+    "typescript": "link:../node_modules/typescript"
   },
   "devDependencies": {
     "@babel/plugin-syntax-object-rest-spread": "^7.8.3"

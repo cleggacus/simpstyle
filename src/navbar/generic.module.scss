@@ -1,0 +1,15 @@
+.genericNavbar{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: var(--bg-navbar);
+  color: var(--fg-navbar);
+  box-shadow: 0px 0px 6px var(--box-shadow);
+  border-style: solid;
+  border-width: 0 0 var(--border-width) 0;
+  border-color: var(--border-color);
+
+  > *{
+    padding: 0 20px;
+  }
+}

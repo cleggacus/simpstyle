@@ -1,0 +1,15 @@
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background-color: var(--bg-tertiary);
+  color: var(--fg-tertiary);
+  overflow: hidden;
+
+  > *{
+    width: 100%;
+    height: 100%;
+    padding: 7px;
+  }
+}

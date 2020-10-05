@@ -3,7 +3,7 @@ import styles from './content.module.scss';
 import { Switch } from "react-router-dom";
 
 interface Props {
-  children?: JSX.Element | JSX.Element[] | null;
+  children?: any;
 }
 
 export default (props: Props) => {

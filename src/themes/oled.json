@@ -1,0 +1,22 @@
+{
+  "title": "oled",
+  "colors": {
+    "bgPrimary":    "#000",
+    "bgSecondary":  "#000",
+    "bgTertiary":   "#222",
+
+    "fgPrimary":    "#ddd",
+    "fgSecondary":  "#ddd",
+    "fgTertiary":   "#ccc",
+
+    "bgNavbar":     "var(--bg-primary)",
+    "fgNavbar":     "var(--fg-primary)",
+
+    "bgContent":     "var(--bg-secondary)",
+    "fgContent":     "var(--fg-secondary)",
+
+    "boxShadow":     "#0000",
+    "borderWidth":   "1px",
+    "borderColor":   "#444"
+  }
+}

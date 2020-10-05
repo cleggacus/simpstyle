@@ -15,5 +15,9 @@ export default interface Theme{
     
     bgContent: string;
     fgContent: string;
+
+    boxShadow: string;
+    borderWidth: string;
+    borderColor: string;
   }
 }

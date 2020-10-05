@@ -1,18 +1,22 @@
 {
-  "title": "dracula",
+  "title": "light",
   "colors": {
     "bgPrimary":    "#ffffff",
     "bgSecondary":  "#e6e9f2",
     "bgTertiary":   "#e6e9f2",
 
-    "fgPrimary":    "#282a36",
-    "fgSecondary":  "#282a36",
-    "fgTertiary":   "#282a36",
+    "fgPrimary":    "#4e5368",
+    "fgSecondary":  "#4e5368",
+    "fgTertiary":   "#4e5368",
 
     "bgNavbar":     "var(--bg-primary)",
     "fgNavbar":     "var(--fg-primary)",
 
     "bgContent":     "var(--bg-secondary)",
-    "fgContent":     "var(--fg-secondary)"
+    "fgContent":     "var(--fg-secondary)",
+
+    "boxShadow":     "#0003",
+    "borderWidth":   "1px",
+    "borderColor":   "#fff0"
   }
 }
